@@ -7,7 +7,6 @@
 /* Menu */
 .options {
   position: fixed;
-  width: 21%;
   height: 50px;
   top: 0;
   right: 0;
@@ -43,7 +42,6 @@
 
 .overlay {
   z-index: 100;
-  margin: 30px;
 }
 /* Main */
 .shoes {
