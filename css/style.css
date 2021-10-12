@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* Menu */
+.options {
+  position: fixed;
+  width: 20%;
+  height: 50px;
+  top: 0;
+  right: 0;
+  margin: 0 10px;
+  padding: 40px;
+}
+/* Options */
+.options li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+
+.options a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 38px;
+  color: black;
+  padding: 0 10px;
+}
+
+.circle {
+  position: relative;
+  border: 2px solid white;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.overlay {
+  z-index: 100;
+  margin: 30px;
+}
+/* Main */
+.shoes {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#blue {
+  background-color: red;
+}
+
+#white {
+  background-color: green;
+}
+
+#green {
+  background-color: yellow;
+}
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.first-text, .second-text {
+  position: absolute;
+  font-size: 40px;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.first-text {
+  color: yellow;
+}
+
+.second-text {
+  color: green;
+}
