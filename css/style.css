@@ -78,10 +78,12 @@ img {
 
 .first-text, .second-text {
   position: absolute;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
-  top: 90%;
+  top: 78%;
   left: 50%;
+  right: 12%;
+  bottom: 20%;
   transform: translate(-50%, -50%);
   z-index: 2;
 }
