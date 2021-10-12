@@ -78,9 +78,9 @@ img {
 
 .first-text, .second-text {
   position: absolute;
-  font-size: 45px;
+  font-size: 60px;
   text-align: center;
-  top: 80%;
+  top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
